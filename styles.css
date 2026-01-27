@@ -321,7 +321,7 @@ main {
     border: 1px solid var(--border-soft);
     text-align: left;
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
 }
 
 .stat-card:hover {
@@ -338,7 +338,7 @@ main {
 }
 
 .stat-card:hover .stat-number {
-    transform: scale(1.1);
+    transform: translateX(8px);
 }
 
 .stat-label {
@@ -370,7 +370,7 @@ main {
     padding: 16px 16px 14px;
     border: 1px solid var(--border-soft);
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
     position: relative;
     overflow: hidden;
 }
@@ -429,7 +429,7 @@ main {
     font-size: 13px;
     color: var(--text-main);
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
 }
 
 .support-item:hover {
@@ -494,7 +494,7 @@ main {
     padding: 12px 14px 10px;
     border: 1px solid var(--border-soft);
     transition: all 0.3s ease;
-    cursor: pointer;
+    cursor: default;
 }
 
 .contact-box:hover {
