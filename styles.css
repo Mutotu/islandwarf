@@ -272,7 +272,7 @@ header:hover {
 .section-label {
     font-size: 28px;
     letter-spacing: 0.12em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--brand-teal);
     font-weight: 800;
 }
