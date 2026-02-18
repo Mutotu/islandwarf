@@ -1,8 +1,8 @@
 :root {
     --brand-teal: #1f7f94;
-    --brand-dark: #1c2a33;
-    --text-main: #333333;
-    --text-muted: #555555;
+    --brand-dark: #0d1317;
+    --text-main: #000000;
+    --text-muted: #373636;
     --bg-light: #f5f7fa;
     --card-bg: #ffffff;
     --border-soft: #dde3ea;
@@ -86,7 +86,7 @@ header:hover {
 /* ================= HERO ================= */
 
 .hero {
-    background: linear-gradient(135deg, #ffffff 0%, #f0f7f9 50%, #ffffff 100%);
+    /* background: linear-gradient(135deg, #ffffff 0%, #f0f7f9 50%, #ffffff 100%); */
     border-bottom: 1px solid var(--border-soft);
 }
 
@@ -693,7 +693,7 @@ footer:hover {
     }
 }
 .hero {
-    background: linear-gradient(135deg, #ffffff 0%, #f0f7f9 50%, #ffffff 100%);
+    /* background: linear-gradient(135deg, #ffffff 0%, #f0f7f9 50%, #ffffff 100%); */
     border-bottom: 1px solid var(--border-soft);
     scroll-margin-top: 80px; /* ADD THIS LINE */
 }
@@ -701,4 +701,21 @@ footer:hover {
 
 section[id] {
     scroll-margin-top: 100px;
+}
+
+/* Background photos */
+
+.container {
+  position: relative; 
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  position:fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-image: url('view1.jpeg');
+  background-size: cover;
+  opacity:0.4;
+  z-index: -1;  
 }
